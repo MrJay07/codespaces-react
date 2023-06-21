@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codespaces-react-textUtils/static/css/main.f87db60f.css",
+    "main.js": "/codespaces-react-textUtils/static/js/main.554e178d.js",
+    "static/js/496.0320d045.chunk.js": "/codespaces-react-textUtils/static/js/496.0320d045.chunk.js",
+    "index.html": "/codespaces-react-textUtils/index.html",
+    "main.f87db60f.css.map": "/codespaces-react-textUtils/static/css/main.f87db60f.css.map",
+    "main.554e178d.js.map": "/codespaces-react-textUtils/static/js/main.554e178d.js.map",
+    "496.0320d045.chunk.js.map": "/codespaces-react-textUtils/static/js/496.0320d045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87db60f.css",
+    "static/js/main.554e178d.js"
+  ]
+}
