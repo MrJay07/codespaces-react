@@ -11,6 +11,18 @@ export default function TextForm(props) {
         let newtext = text.toLowerCase();
         setText(newtext)
     }
+    const handleClearClick=() =>{
+        // console.log("Clear Text was clicked" +text);
+        let newtext = '';
+        setText(newtext)
+    }
+    const handleCopyClick=() =>{
+        // console.log("Copy Text was clicked" +text);
+        var text = document.getElementById("myBox");
+        text.select();
+        text.setSelectionRange(0, 9999);
+        navigator.clipboard.writeText(text.value);
+    }
     const handleOnChange=(event) =>{
         // console.log("on change");
         setText(event.target.value)
@@ -27,6 +39,8 @@ export default function TextForm(props) {
                 </div>
                 <button className='btn btn-primary mx-1' onClick={handleUpClick}>Convert to Uppercase</button>
                 <button className='btn btn-primary mx-1' onClick={handleLowClick}>Convert to Lowercase</button>
+                <button className='btn btn-primary mx-1' onClick={handleClearClick}>Clear the text</button>
+                <button className='btn btn-primary mx-1' onClick={handleCopyClick}>Copy to Clipboard</button>
             </div>
             <div className='container my-2'>
                 <h1>Your text summery</h1>
